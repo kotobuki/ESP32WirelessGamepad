@@ -152,7 +152,7 @@ void GamepadBLE::setupAdvertisementDataBleLib()
 
     /*** Define advertisement data and scan response data using BLE library functions ***/
     pAdvertising->setAppearance(HID_GAMEPAD);
-    //pAdvertising->addServiceUUID(pHIDdevice_->hidService()->getUUID());
+    pAdvertising->addServiceUUID(pHIDdevice_->hidService()->getUUID());
     //pAdvertising->setMinPreferred(0x0);
     //pAdvertising->setMaxPreferred(0x0);
 }

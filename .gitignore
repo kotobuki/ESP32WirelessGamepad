@@ -10,3 +10,4 @@ lib/README
 test/README
 
 *.log
+.DS_Store

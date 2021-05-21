@@ -1,32 +1,29 @@
-# M5StickC_Gamepad
-Bluetooth low energy (BLE) gamepad based on an M5StickC (ESP32).
+# ESP32WirelessGamepad
 
-## Getting Started
-#### Development environment
-- Visual Studio Code (version 1.46.1)
-- PlatformIO IDE for VSCode
+Yet another ESP32 based wireless gamepad project for M5GO focusing on simplicity derived from the [M5StickC_Gamepad](https://github.com/esikora/M5StickC_Gamepad) project by Ernst Sikora.
 
-#### System
-- Device: [M5StickC](https://docs.m5stack.com/#/en/core/m5stickc)
-- Platform: espressif32
-- Board: m5stick-c
-- Framework: arduino
 
-#### Peripherals
-- [Joystick](https://docs.m5stack.com/#/en/unit/joystick)
+## Setup
 
-#### Libraries used
-- M5StickC
-- BLE ESP32 Arduino
+- Connect a [JOYSTICK Unit](https://docs.m5stack.com/en/unit/joystick) to the PORT A of your M5GO
+- Connect a [DUAL BUTTON Unit](https://docs.m5stack.com/en/unit/dual_button) to the PORT B your M5GO
 
-## Project Description
 
-A comprehensive description of this project is available at [hackster.io](https://www.hackster.io/esikora/wireless-gamepad-with-esp32-and-ble-9e069a).
+## Status
+
+- [x] Windows 10
+- [x] macOS Big Sur
+- [x] Oculus Quest
+- [ ] Oculus Quest 2
+
+
+## Known Issues
+
+- Quest 2 recognizes the gamepad device but does not accept events from the device
+
 
 ## License
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 See the [LICENSE](LICENSE) file for details.
-
-Copyright 2020 © Ernst Sikora
